@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en"><head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <!--1) Bandeau de logo noir
+      2) Background de la page comme sur let emplate
+      3) Faire un petit titre en mode "Bienvenue sur votre tableau de bord
+      4) Faire des gros carrés
+      5) Chosiri des couleurs qui te plaisent
+        ==> Avec un code déjà propre
+      6) Intégrer des textes et eds chiffres factices dans tes carrés
+      7) Remplacer les couleurs de fonds par des dégradés
+      8) Mettre une image logo en bas à droiet des blocs-->
+      <style>
+.logo {
+  margin-top: 30px;
+  margin-bottom:35px;
+  width: 10%;
+}
+
+.fond-logo{
+  background-color: #000000
+}
+
+.espace-card{
+  margin-right:50px
+
+}
+.left-orange-card{
+background: rgb(138,192,241);
+background: linear-gradient(90deg, rgba(138,192,241,1) 0%, rgba(180,255,240,1) 82%);
+}
+
+.middle-orange-card{
+background: rgb(138,192,241);
+background: linear-gradient(90deg, rgba(138,192,241,1) 0%, rgba(180,255,240,1) 47%, rgba(138,192,241,1) 100%);
+}
+.right-orange-card{
+ background: rgb(180,255,240);
+background: linear-gradient(90deg, rgba(180,255,240,1) 0%, rgba(138,192,241,1) 82%);
+}
+.left-green-card{
+background: rgb(255,233,104);
+background: linear-gradient(90deg, rgba(255,233,104,1) 52%, rgba(240,124,0,1) 100%);
+}
+.mid-green-card{
+background: rgb(240,124,0);
+background: linear-gradient(90deg, rgba(240,124,0,1) 0%, rgba(255,233,104,1) 50%, rgba(240,124,0,1) 100%);;
+}
+.right-green-card{background: rgb(240,124,0);
+background: linear-gradient(90deg, rgba(240,124,0,1) 0%, rgba(255,233,104,1) 41%);}
+.yellow-card{
+  background: rgb(250,22,123);
+background: linear-gradient(90deg, rgba(250,22,123,1) 0%, rgba(254,255,15,0.9951330874146533) 100%);
+}
+.left-purple-card{
+background: rgb(255,253,107);
+background: linear-gradient(90deg, rgba(255,253,107,1) 38%, rgba(125,255,229,1) 100%);;
+}
+.mid-purple-card{
+ background: rgb(125,255,229);
+background: linear-gradient(90deg, rgba(125,255,229,1) 0%, rgba(255,253,107,1) 50%, rgba(125,255,229,1) 100%);
+}
+ .right-purple-card{
+background: rgb(125,255,229);
+background: linear-gradient(90deg, rgba(125,255,229,1) 0%, rgba(255,253,107,1) 58%);
+ }
+
+ .camion {border: 0;
+  background: transparent;
+  width:25%;
+  
+}
+
+}
+
+    </style>
+      <title>Hello, world!</title>
+    </head>
+    <body>
+      <div class="container-fluid  fond-logo ">
+        <div class="row">
+          <!-- <div class="text-center"> -->
+          <div style="text-align:center;">
+            <img src="https://brocolis.fantasticbook.co/assets/custom/img/logo2021-white.svg" class="logo" alt="Responsive image">
+          </div>
+        </div>
+        </div>
+
+        <div class="row display-5 ">
+          <p >Bienvenue sur votre tableau de bord</p>
+        </div>
+
+        <div class="row  m-5 ">
+          <div class="col-4  ">
+            <div class="card rounded left-orange-card border-dark text " ><h6>Livre expédié pour vous</h6><h2 class="text-center">500</h2>
+              <img src="https://image.flaticon.com/icons/png/512/232/232561.png" class="camion" alt="Responsive image">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card rounded middle-orange-card border-dark" ><h6>Hauteur de vos livres expédié</h6><h2 class="text-center">1000m</h2>
+            </div>
+          </div>
+
+          <div class="col-4 ">
+            <div class="card rounded right-orange-card border-dark" ><h6>Poids total de vos livres expédié</h6><h2 class="text-center">1tonne</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center m-5">
+          <div class="col-4  ">
+            <div class="card rounded left-purple-card border-dark" ><h6>La plus grande distance que votre livre ai atteint</h6><h2 class="text-center"> 1000000km MARS</h2>
+            </div>
+          </div>
+          
+          <div class="col-4 ">
+            <div class="card rounded mid-purple-card border-dark" ><h6>votre livre est lu en majorité par des </h6><h2 class="text-center">femmes/hommes</h2>
+            </div>
+          </div>
+
+          <div class="col-4 ">
+            <div class="card rounded right-purple-card border-dark" ><h6>Nombre d'arbres utilisé pour vos livres</h6><h2 class="text-center">10</h2></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row  m-5">
+          <div class="col-4  ">
+            <div class="card rounded left-green-card border-dark" ><h6>La plus grande distance que votre livre ai atteint</h6><h2 class="text-center"> 1000000km MARS</h2>
+            </div>
+          </div>
+
+          <div class="col-4 ">
+            <div class="card rounded mid-green-card border-dark" ><h6>votre livre est lu en majorité par des </h6><h2 class="text-center">femmes/hommes</h2>
+            </div>
+          </div>
+
+          <div class="col-4 ">
+            <div class="card rounded right-green-card border-dark" ><h6>Nombre d'arbres utilisé pour vos livres</h6><h2 class="text-center">10</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+          
+        </script>
+      </body>
+    </html>
